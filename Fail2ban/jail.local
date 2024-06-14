@@ -241,7 +241,7 @@ action = %(action_)s
 # normal (default), ddos, extra or aggressive (combines all).
 # See "tests/files/logs/sshd" or "filter.d/sshd.conf" for usage example and details.
 #mode   = normal
-port    = 22,10022,20022,30022,40022,50022,60022,50222
+port    = 22,10022,20022,30022,40022,50022,60022,50222,60222
 logpath = %(sshd_log)s
 backend = %(sshd_backend)s
 
